@@ -1,0 +1,6 @@
+interface:
+  display_name: "找需求"
+  short_description: "拿真实工作找出系统遗漏，并整理成可交接开发的业务需求"
+  default_prompt: "请使用 $find-needs，拿一个真实工作场景找出系统遗漏，并整理成可交接开发的结果。"
+policy:
+  allow_implicit_invocation: false
