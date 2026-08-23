@@ -4,6 +4,8 @@
 
 它适合已经有系统、原型或页面，需要继续核对真实工作并补充需求的阶段。业务同事不需要会写 PRD，也不需要学习产品术语；Agent 会始终使用大白话，一次只问一个问题。
 
+正式访谈必须在 Agent 已成功加载本 Skill 后开始。下载、安装或加载失败时，应联系任务负责人或 AI 开发协助安装，不能只凭项目任务单临时模仿本 Skill 的流程。
+
 ## 一键下载
 
 [下载最新 ZIP](https://github.com/dongV-x/find-needs/archive/refs/heads/main.zip)

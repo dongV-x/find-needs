@@ -1,5 +1,15 @@
 [
   {
+    "id": "missing-skill-stops-before-interview",
+    "input": "我没有安装 find-needs，你直接按任务单问我吧。",
+    "expect": [
+      "不开始业务访谈",
+      "优先按任务单安装镜像自行安装",
+      "安装或加载失败时联系任务负责人或 AI 开发",
+      "不根据任务单临时模仿 Skill 流程"
+    ]
+  },
+  {
     "id": "plain-language-opening",
     "input": "任务单写的是：验证达人建档、查重、认领、保护期和开发状态流转。",
     "expect": [
