@@ -6,6 +6,8 @@
 
 任务页面可以直接触发本 Skill，不要求业务同事额外输入调用命令。Agent 必须先安装并验证本 Skill 已加载；验证失败时不能开始访谈，也不能用任务页面内容替代 Skill 流程。
 
+Skill 根目录的 [`VERSION`](VERSION) 是本机版本标识。任务页面提供版本地址时，Agent 会在访谈前比较远端与本机版本；本机版本缺失或落后时，必须先征得业务人员同意再更新，更新失败或会话仍加载旧版时不会继续访谈。
+
 ## 一键下载
 
 [下载最新 ZIP](https://github.com/dongV-x/find-needs/archive/refs/heads/main.zip)
@@ -69,7 +71,7 @@ git clone https://github.com/dongV-x/find-needs.git ~/.codex/skills/find-needs
 node evals/smoke-check.mjs
 ```
 
-当前测试覆盖 15 种常见回答、首次深挖、定向补问、开发后复看，以及红人营销和反馈系统两类任务卡。
+当前测试覆盖常见回答、版本更新、任务必过项、首次深挖、定向补问、开发后复看，以及红人营销和反馈系统两类任务卡。
 
 ## 边界
 
